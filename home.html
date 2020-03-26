@@ -1,0 +1,31 @@
+<html lang="en" dir="itr">
+<head>
+	<meta charset="utf-8">
+	<title>Simple Interest Calculator</title>
+	<link rel="stylesheet" href="style.css">
+	
+<script type="text/javascript">
+	function calculate(){
+	var principal= document.getElementById('principal').value;
+	var ratio= document.getElementById('ratio').value;
+	var time= document.getElementById('time').value;
+	var si= (principal*ratio*time)/100;	
+    document.getElementById("simplein").innerHTML=si;
+    //var Ci= document.getElementById('Compound Interest').value;
+}	
+	
+	</script>
+	
+	</head>
+<body>
+<div class="box">
+<h1>Simple Interest Calculator</h1>
+
+<input id="principal" type="text" name="" placeholder="principal">
+<input id="ratio" type="text" name="" placeholder="ratio">
+<input id="time" type="text" name="value" placeholder="time"><br>
+<input id="sub" type="submit" name="submit" value="calculate" onclick="calculate()">
+<div id="simplein" style="font-size:40px">0</div>
+</div>
+</body>
+</html>

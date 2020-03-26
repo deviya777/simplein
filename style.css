@@ -1,0 +1,63 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background-color: linen;
+	
+	margin-left: 400px;
+	
+}
+
+.box {
+  color: maroon;
+  width: 450px;
+  padding: 120px;
+  top:30%;
+  left:15%;
+  transfrom:translate(-30%,-30%);
+  background:#191919;
+  text-align: center;
+}
+.box h1{
+color:white;
+text-transfrom: uppercase;
+font-width:500;
+text-align: center;
+}
+.box input[type = "text"],.box input[type = "ratio"]{
+border:0;
+background:none;
+display: black;
+margin: 20px auto;
+text-align:center;
+border:20px solid #3498db;
+padding: 14px 20px;
+width: 300px;
+outline:none;
+color: white;
+border radius: 24px;
+transition: 0.25s;
+}
+.box input[type="submit"]{
+border:0;
+background:none;
+display: black;
+margin: 20px auto;
+text-align:center;
+border:20px solid #2ecc71;
+padding: 14px 40px;
+width: 200px;
+outline: none;
+color: white;
+border radius: 24px;
+transition: 0.25s;
+cursor: pointer;
+text-align: center;
+.box input[type="ratio"]{
+	color: white;
+	cursor: pointer;
+}
+.box input[type="submit"]:hover{
+background: #2ecc71;
+text-align: center;
+}
